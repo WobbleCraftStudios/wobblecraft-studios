@@ -50,12 +50,6 @@ const Index = () => {
             Our Games
           </a>
 
-          {/* Mobile hamburger */}
-          <button className="flex flex-col gap-1.5 md:hidden" aria-label="Menu">
-            <span className="block h-[1px] w-5 bg-offwhite" />
-            <span className="block h-[1px] w-5 bg-offwhite" />
-            <span className="block h-[1px] w-5 bg-offwhite" />
-          </button>
         </nav>
 
         {/* Main content — vertically centered in left 70% */}
