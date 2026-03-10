@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import heroBg from "@/assets/hero-bg.jpg";
 
 const navLinks = ["Games", "Studio", "Careers", "Support"];
@@ -26,7 +27,7 @@ const Index = () => {
         <nav className="flex items-center justify-between px-6 py-6 md:px-12 lg:px-16">
           {/* Logo */}
           <div className="font-heading text-lg font-bold tracking-tight text-offwhite md:text-xl">
-            WobbleCraft
+            WobbleCraft Studios
           </div>
 
           {/* Desktop nav links */}
@@ -50,12 +51,6 @@ const Index = () => {
             Our Games
           </a>
 
-          {/* Mobile hamburger */}
-          <button className="flex flex-col gap-1.5 md:hidden" aria-label="Menu">
-            <span className="block h-[1px] w-5 bg-offwhite" />
-            <span className="block h-[1px] w-5 bg-offwhite" />
-            <span className="block h-[1px] w-5 bg-offwhite" />
-          </button>
         </nav>
 
         {/* Main content — vertically centered in left 70% */}
@@ -76,12 +71,12 @@ const Index = () => {
 
             {/* CTA button */}
             <div>
-              <a
-                href="#"
+              <Link
+                to="/portfolio"
                 className="inline-block border border-offwhite px-8 py-3 font-heading text-sm font-medium text-offwhite transition-colors duration-200 hover:border-magenta hover:text-magenta"
               >
                 View Portfolio
-              </a>
+              </Link>
             </div>
 
             {/* Social proof */}
