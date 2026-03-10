@@ -26,7 +26,7 @@ const Index = () => {
         <nav className="flex items-center justify-between px-6 py-6 md:px-12 lg:px-16">
           {/* Logo */}
           <div className="font-heading text-lg font-bold tracking-tight text-offwhite md:text-xl">
-            WobbleCraft
+            WobbleCraft Studios
           </div>
 
           {/* Desktop nav links */}
