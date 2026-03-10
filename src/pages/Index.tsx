@@ -71,10 +71,13 @@ const Index = () => {
 
             {/* CTA button */}
             <div>
-              <a
-                href="#"
+              <Link
+                to="/portfolio"
                 className="inline-block border border-offwhite px-8 py-3 font-heading text-sm font-medium text-offwhite transition-colors duration-200 hover:border-magenta hover:text-magenta"
               >
+                View Portfolio
+              </Link>
+            </div>
                 View Portfolio
               </a>
             </div>
