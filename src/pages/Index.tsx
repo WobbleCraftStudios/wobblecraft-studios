@@ -78,9 +78,6 @@ const Index = () => {
                 View Portfolio
               </Link>
             </div>
-                View Portfolio
-              </a>
-            </div>
 
             {/* Social proof */}
             <p className="font-body text-xs uppercase tracking-[0.15em] text-asphalt">
