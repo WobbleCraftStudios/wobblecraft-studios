@@ -4,9 +4,8 @@ import path from "path";
 import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
-export default defineConfig(({ mode }) => ({
-  base: '/wobblecraft-studios/',.github/workflows/deploy
-  server: {
+export default defineConfig(({ base: '/wobblecraft-studios/',.github/workflows/deploy }) => ({
+    server: {
     host: "::",
     port: 8080,
     hmr: {
