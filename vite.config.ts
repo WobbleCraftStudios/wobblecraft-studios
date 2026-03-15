@@ -4,18 +4,20 @@ import path from "path";
 import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
-export default defineConfig(({ base: '/wobblecraft-studios/',.github/workflows/deploy }) => ({
-    server: {
+export default defineConfig({
+  base: "/wobblecraft-studios/",   // ← THIS IS THE ONLY CHANGE YOU NEED
+
+  server: {
     host: "::",
     port: 8080,
     hmr: {
       overlay: false,
     },
   },
-  plugins: [react(), mode === "development" && componentTagger()].filter(Boolean),
+  plugins: [react(), /* mode check removed for GitHub Pages — it's not needed */ componentTagger()].filter(Boolean),
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
     },
   },
-}));
+});
