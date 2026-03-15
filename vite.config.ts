@@ -5,7 +5,7 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: "/wobblecraft-studios/",   // ← THIS IS THE ONLY CHANGE YOU NEED
+  base: "/craft-cinematic-showcase/",   // ← THIS IS THE ONLY CHANGE YOU NEED
 
   server: {
     host: "::",
